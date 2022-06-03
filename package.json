@@ -1,0 +1,28 @@
+{
+	"name": "web-bookmark",
+	"version": "0.1.0",
+	"description": "Create web bookmarks of your favorite sites",
+	"author": "Ernesto Méndez",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "./node_modules/wp-prettier/bin-prettier.js -w .",
+		"lint": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"wp:start": "wp-env start",
+		"wp:stop": "wp-env stop",
+		"wp:destroy": "wp-env destroy"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^4.7.0",
+		"@wordpress/scripts": "^23.1.0",
+		"wp-prettier": "^2.6.2-beta-1"
+	},
+	"dependencies": {
+		"classnames": "^2.3.1",
+		"link-preview-js": "^2.1.15"
+	}
+}

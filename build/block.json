@@ -1,0 +1,101 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "mdz/web-bookmark",
+  "version": "0.1.0",
+  "title": "Web Bookmark",
+  "category": "widgets",
+  "icon": "admin-site",
+  "description": "Create web bookmarks of your favorite sites.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "web-bookmark-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "isURLFetched": {
+      "type": "boolean",
+      "default": false
+    },
+    "isURLValid": {
+      "type": "boolean",
+      "default": false
+    },
+    "hideReferer": {
+      "type": "boolean",
+      "default": false
+    },
+    "useLinkUnderline": {
+      "type": "boolean",
+      "default": true
+    },
+    "useBorderRadius": {
+      "type": "boolean",
+      "default": true
+    },
+    "useClickOverlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "displaySiteUrl": {
+      "type": "boolean",
+      "default": true
+    },
+    "displaySiteImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "displaySiteFavicon": {
+      "type": "boolean",
+      "default": true
+    },
+    "siteImageClickable": {
+      "type": "boolean",
+      "default": true
+    },
+    "openInNewWindow": {
+      "type": "boolean",
+      "default": true
+    },
+    "cardAlignment": {
+      "type": "string",
+      "enum": [
+        "top",
+        "right"
+      ],
+      "default": "right"
+    },
+    "siteUrl": {
+      "type": "string"
+    },
+    "siteUrlInput": {
+      "type": "string"
+    },
+    "siteTitle": {
+      "type": "string"
+    },
+    "siteDescription": {
+      "type": "string"
+    },
+    "siteFavicon": {
+      "type": "string"
+    },
+    "siteImage": {
+      "type": "string"
+    },
+    "siteImageTopHeight": {
+      "type": "number",
+      "default": 200
+    },
+    "siteImageRightWidth": {
+      "type": "number",
+      "default": 32.8
+    },
+    "siteImageIsCentered": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,37 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+@import "mixins";
+
+.wp-block-mdz-web-bookmark {
+	&.is-fetching-url {
+		opacity: 0.35;
+	}
+}
+
+.wb-link-entry {
+	.components-text-control__input {
+		margin: 0.4em 0;
+		border: solid 1px #ccc !important;
+		font-size: 1.1em;
+		padding: 0.65em;
+		width: 100% !important;
+	}
+
+	.components-spinner,
+	.components-button {
+		vertical-align: middle;
+	}
+
+	.web-bookmark-block__error {
+		@include error-msg();
+	}
+}
+
+.components-panel .web-bookmark-block__error {
+	@include error-msg();
+	font-size: 1em;
+}

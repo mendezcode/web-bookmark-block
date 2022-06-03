@@ -1,0 +1,20 @@
+{
+	"useTabs": true,
+	"tabWidth": 4,
+	"printWidth": 80,
+	"singleQuote": true,
+	"trailingComma": "es5",
+	"bracketSpacing": true,
+	"semi": true,
+	"arrowParens": "always",
+	"bracketSameLine": false,
+	"parenSpacing": true,
+	"overrides": [
+		{
+			"files": "*.{css,sass,scss}",
+			"options": {
+				"singleQuote": false
+			}
+		}
+	]
+}
