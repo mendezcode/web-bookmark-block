@@ -194,7 +194,6 @@ export default function Edit( { attributes, setAttributes } ) {
 								'has-site-image': displaySiteImage,
 								'has-border-radius': useBorderRadius,
 								'has-link-underline': useLinkUnderline,
-								// 'has-click-overlay': useClickOverlay,
 								'card-alignment-top':
 									CARD_ALIGN_TOP === cardAlignment,
 								'card-alignment-right':
@@ -205,15 +204,6 @@ export default function Edit( { attributes, setAttributes } ) {
 						  }
 				),
 			} ) }
-			onClick={
-				isURLFetched
-					? () => {
-							if ( useClickOverlay ) {
-								// window.open( siteUrl, windowTarget );
-							}
-					  }
-					: null
-			}
 		>
 			{ isURLFetched ? (
 				<>

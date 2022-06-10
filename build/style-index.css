@@ -1,1 +1,124 @@
-:root{--web-bookmark-block--border-radius:10px;--web-bookmark-block--margin:1rem;--web-bookmark-block--padding:1em;--web-bookmark-block--card-right-width:32.8%;--web-bookmark-block--card-top-height:200px;--web-bookmark-block--favicon-size:20px}.wp-block-mdz-web-bookmark:not(:empty){border:1px solid #ccc;padding:var(--web-bookmark-block--padding)}.wp-block-mdz-web-bookmark.wb-link-entry{border:1px dashed #ccc}.wp-block-mdz-web-bookmark.has-click-overlay{box-shadow:0 0 0 transparent;position:relative;transition:box-shadow .18s ease-in-out}.wp-block-mdz-web-bookmark.has-click-overlay:hover{box-shadow:0 0 0 7px hsla(0,0%,50%,.1)}.wp-block-mdz-web-bookmark.has-click-overlay .wb-click-overlay{background:transparent;display:block;height:100%;left:0;position:absolute;top:0;width:100%;z-index:1}.wp-block-mdz-web-bookmark.has-border-radius{border-radius:var(--web-bookmark-block--border-radius)}.wp-block-mdz-web-bookmark .wb-meta-title{font-size:1.2em;font-weight:500;margin:0 0 var(--web-bookmark-block--margin) 0}.wp-block-mdz-web-bookmark .wb-meta-title .wb-link-preview,.wp-block-mdz-web-bookmark .wb-meta-title a{text-decoration:none}.wp-block-mdz-web-bookmark.has-link-underline:not(.has-click-overlay) .wb-meta-title .wb-link-preview:hover,.wp-block-mdz-web-bookmark.has-link-underline:not(.has-click-overlay) .wb-meta-title a:hover{text-decoration:underline}.wp-block-mdz-web-bookmark .wb-meta-description{color:#676767;margin:var(--web-bookmark-block--margin) 0}.wp-block-mdz-web-bookmark .wb-meta-link img{height:var(--web-bookmark-block--favicon-size);margin-right:.5em;position:relative;top:-.1em;vertical-align:middle;width:var(--web-bookmark-block--favicon-size)}.wp-block-mdz-web-bookmark .wb-meta-link .wb-link-preview,.wp-block-mdz-web-bookmark .wb-meta-link a{text-decoration:none}.wp-block-mdz-web-bookmark.has-link-underline:not(.has-click-overlay) .wb-meta-link .wb-link-preview:hover,.wp-block-mdz-web-bookmark.has-link-underline:not(.has-click-overlay) .wb-meta-link a:hover{text-decoration:underline}.wp-block-mdz-web-bookmark .wb-card{display:block}.wp-block-mdz-web-bookmark.has-site-image.card-alignment-top{display:flex;flex-direction:column}.wp-block-mdz-web-bookmark.has-site-image.card-alignment-top .wb-meta{order:2}.wp-block-mdz-web-bookmark.has-site-image.card-alignment-top .wb-card{background-size:cover;height:var(--web-bookmark-block--card-top-height);margin:calc(var(--web-bookmark-block--padding)*-1);margin-bottom:var(--web-bookmark-block--margin);order:1;width:calc(100% + var(--web-bookmark-block--padding)*2)}.wp-block-mdz-web-bookmark.has-site-image.card-alignment-top.has-border-radius .wb-card{border-top-left-radius:var(--web-bookmark-block--border-radius);border-top-right-radius:var(--web-bookmark-block--border-radius)}.wp-block-mdz-web-bookmark.has-site-image.card-alignment-right{align-items:stretch;display:flex;flex-direction:row;justify-content:space-between}.wp-block-mdz-web-bookmark.has-site-image.card-alignment-right .wb-meta{padding-right:1rem}.wp-block-mdz-web-bookmark.has-site-image.card-alignment-right .wb-card{background-size:cover;flex:0 0 auto;margin-bottom:calc(var(--web-bookmark-block--padding)*-1);margin-right:calc(var(--web-bookmark-block--padding)*-1);margin-top:calc(var(--web-bookmark-block--padding)*-1);width:var(--web-bookmark-block--card-right-width)}.wp-block-mdz-web-bookmark.has-site-image.card-alignment-right.has-border-radius .wb-card{border-bottom-right-radius:var(--web-bookmark-block--border-radius);border-top-right-radius:var(--web-bookmark-block--border-radius)}
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+:root {
+  --web-bookmark-block--border-radius: 10px;
+  --web-bookmark-block--margin: 1rem;
+  --web-bookmark-block--padding: 1em;
+  --web-bookmark-block--card-right-width: 32.8%;
+  --web-bookmark-block--card-top-height: 200px;
+  --web-bookmark-block--favicon-size: 20px;
+}
+
+.wp-block-mdz-web-bookmark:not(:empty) {
+  border: solid 1px #ccc;
+  padding: var(--web-bookmark-block--padding);
+}
+.wp-block-mdz-web-bookmark.wb-link-entry {
+  border: dashed 1px #ccc;
+}
+.wp-block-mdz-web-bookmark.has-click-overlay {
+  position: relative;
+  transition: box-shadow 180ms ease-in-out;
+  box-shadow: 0 0 0 transparent;
+}
+.wp-block-mdz-web-bookmark.has-click-overlay:hover {
+  box-shadow: 0 0 0 7px rgba(128, 128, 128, 0.1);
+}
+.wp-block-mdz-web-bookmark.has-click-overlay .wb-click-overlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 1;
+}
+.wp-block-mdz-web-bookmark.has-border-radius {
+  border-radius: var(--web-bookmark-block--border-radius);
+}
+.wp-block-mdz-web-bookmark .wb-meta-title {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 0 var(--web-bookmark-block--margin) 0;
+}
+.wp-block-mdz-web-bookmark .wb-meta-title a,
+.wp-block-mdz-web-bookmark .wb-meta-title .wb-link-preview {
+  text-decoration: none;
+}
+.wp-block-mdz-web-bookmark.has-link-underline:not(.has-click-overlay) .wb-meta-title a:hover,
+.wp-block-mdz-web-bookmark.has-link-underline:not(.has-click-overlay) .wb-meta-title .wb-link-preview:hover {
+  text-decoration: underline;
+}
+.wp-block-mdz-web-bookmark .wb-meta-description {
+  color: #676767;
+  margin: var(--web-bookmark-block--margin) 0;
+}
+.wp-block-mdz-web-bookmark .wb-meta-link img {
+  position: relative;
+  vertical-align: middle;
+  margin-right: 0.5em;
+  width: var(--web-bookmark-block--favicon-size);
+  height: var(--web-bookmark-block--favicon-size);
+  top: -0.1em;
+}
+.wp-block-mdz-web-bookmark .wb-meta-link a,
+.wp-block-mdz-web-bookmark .wb-meta-link .wb-link-preview {
+  text-decoration: none;
+}
+.wp-block-mdz-web-bookmark.has-link-underline:not(.has-click-overlay) .wb-meta-link a:hover,
+.wp-block-mdz-web-bookmark.has-link-underline:not(.has-click-overlay) .wb-meta-link .wb-link-preview:hover {
+  text-decoration: underline;
+}
+.wp-block-mdz-web-bookmark .wb-card {
+  display: block;
+}
+.wp-block-mdz-web-bookmark.has-site-image.card-alignment-top {
+  display: flex;
+  flex-direction: column;
+}
+.wp-block-mdz-web-bookmark.has-site-image.card-alignment-top .wb-meta {
+  order: 2;
+}
+.wp-block-mdz-web-bookmark.has-site-image.card-alignment-top .wb-card {
+  order: 1;
+  width: calc(100% + 2 * var(--web-bookmark-block--padding));
+  height: var(--web-bookmark-block--card-top-height);
+  margin: calc(-1 * var(--web-bookmark-block--padding));
+  margin-bottom: var(--web-bookmark-block--margin);
+  background-size: cover;
+}
+.wp-block-mdz-web-bookmark.has-site-image.card-alignment-top.has-border-radius .wb-card {
+  border-top-left-radius: var(--web-bookmark-block--border-radius);
+  border-top-right-radius: var(--web-bookmark-block--border-radius);
+}
+.wp-block-mdz-web-bookmark.has-site-image.card-alignment-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
+}
+.wp-block-mdz-web-bookmark.has-site-image.card-alignment-right .wb-meta {
+  padding-right: 1rem;
+}
+.wp-block-mdz-web-bookmark.has-site-image.card-alignment-right .wb-card {
+  width: var(--web-bookmark-block--card-right-width);
+  flex: 0 0 auto;
+  margin-right: calc(-1 * var(--web-bookmark-block--padding));
+  margin-bottom: calc(-1 * var(--web-bookmark-block--padding));
+  margin-top: calc(-1 * var(--web-bookmark-block--padding));
+  background-size: cover;
+}
+.wp-block-mdz-web-bookmark.has-site-image.card-alignment-right.has-border-radius .wb-card {
+  border-top-right-radius: var(--web-bookmark-block--border-radius);
+  border-bottom-right-radius: var(--web-bookmark-block--border-radius);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

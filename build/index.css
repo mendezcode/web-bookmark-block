@@ -1,1 +1,51 @@
-.wp-block-mdz-web-bookmark.is-fetching-url{opacity:.35}.wb-link-entry .components-text-control__input{border:1px solid #ccc!important;font-size:1.1em;margin:.4em 0;padding:.65em;width:100%!important}.wb-link-entry .components-button,.wb-link-entry .components-spinner{vertical-align:middle}.wb-link-entry .web-bookmark-block__error{color:#f33;font-size:.75em;margin:-.3em 0 .8em}.wb-link-entry .web-bookmark-block__error .dashicon{margin-right:.1em}.wb-link-entry .web-bookmark-block__error .dashicon,.wb-link-entry .web-bookmark-block__error span{vertical-align:middle}.components-panel .web-bookmark-block__error{color:#f33;font-size:.75em;font-size:1em;margin:-.3em 0 .8em}.components-panel .web-bookmark-block__error .dashicon{margin-right:.1em}.components-panel .web-bookmark-block__error .dashicon,.components-panel .web-bookmark-block__error span{vertical-align:middle}
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-mdz-web-bookmark.is-fetching-url {
+  opacity: 0.35;
+}
+
+.wb-link-entry .components-text-control__input {
+  margin: 0.4em 0;
+  border: solid 1px #ccc !important;
+  font-size: 1.1em;
+  padding: 0.65em;
+  width: 100% !important;
+}
+.wb-link-entry .components-spinner,
+.wb-link-entry .components-button {
+  vertical-align: middle;
+}
+.wb-link-entry .web-bookmark-block__error {
+  color: #ff3333;
+  font-size: 0.75em;
+  margin: -0.3em 0 0.8em;
+}
+.wb-link-entry .web-bookmark-block__error .dashicon {
+  margin-right: 0.1em;
+}
+.wb-link-entry .web-bookmark-block__error .dashicon,
+.wb-link-entry .web-bookmark-block__error span {
+  vertical-align: middle;
+}
+
+.components-panel .web-bookmark-block__error {
+  color: #ff3333;
+  font-size: 0.75em;
+  margin: -0.3em 0 0.8em;
+  font-size: 1em;
+}
+.components-panel .web-bookmark-block__error .dashicon {
+  margin-right: 0.1em;
+}
+.components-panel .web-bookmark-block__error .dashicon,
+.components-panel .web-bookmark-block__error span {
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=index.css.map*/
